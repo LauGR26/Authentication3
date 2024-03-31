@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <script type="module" src="/Controller/registro.js"></script>
+  <link rel="icon" href="/Resources/icons/image.png" type="image/x-icon">
+  <link rel="stylesheet" href="/Styles/style2.css">
+  
+  <title>REGISTER</title>
+</head>
+<body>
+  <div class="contenedor-formulario-imagen">
+    <section class="formulario-crearcuenta">
+      <h1>Crear una nueva cuenta</h1>
+      <form id="formulario-crear">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password"><br><br>        
+        <input type="submit"  value="Registrarse">
+        <input type="button" id="btn-existing-account" value="Volver" onclick="window.location.href='/index.html'">
+      </form>
+    </section>
+  </div>
+</body>
+</html>
